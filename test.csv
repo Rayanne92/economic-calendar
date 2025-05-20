@@ -1,0 +1,117 @@
+Date,Heure,Devise,Impact,Événement
+2025-05-18,17:20,USD,Low,FOMC Member Williams Speaks
+2025-05-18,18:30,NZD,Low,BusinessNZ Services Index
+2025-05-18,18:45,NZD,Low,PPI Input q/q
+2025-05-18,18:45,NZD,Low,PPI Output q/q
+2025-05-18,19:01,GBP,Low,Rightmove HPI m/m
+2025-05-18,21:30,CNY,Low,New Home Prices m/m
+2025-05-18,22:00,CNY,Medium,Industrial Production y/y
+2025-05-18,22:00,CNY,Medium,Retail Sales y/y
+2025-05-18,22:00,CNY,Low,Fixed Asset Investment ytd/y
+2025-05-18,22:00,CNY,Low,NBS Press Conference
+2025-05-18,22:00,CNY,Low,Unemployment Rate
+2025-05-19,00:30,JPY,Low,Tertiary Industry Activity m/m
+2025-05-19,05:00,EUR,Low,EU Economic Forecasts
+2025-05-19,05:00,EUR,Low,Final Core CPI y/y
+2025-05-19,05:00,EUR,Low,Final CPI y/y
+2025-05-19,08:00,CAD,Holiday,Bank Holiday
+2025-05-19,08:30,USD,Low,FOMC Member Bostic Speaks
+2025-05-19,08:45,USD,Low,FOMC Member Jefferson Speaks
+2025-05-19,08:45,USD,Low,FOMC Member Williams Speaks
+2025-05-19,10:00,USD,Low,CB Leading Index m/m
+2025-05-19,12:30,CHF,Medium,SNB Chairman Schlegel Speaks
+2025-05-19,13:15,USD,Low,FOMC Member Logan Speaks
+2025-05-19,13:30,USD,Low,FOMC Member Kashkari Speaks
+2025-05-19,14:45,USD,Low,FOMC Member Bostic Speaks
+2025-05-19,21:00,CNY,Medium,1-y Loan Prime Rate
+2025-05-19,21:00,CNY,Medium,5-y Loan Prime Rate
+2025-05-20,00:30,AUD,High,Cash Rate
+2025-05-20,00:30,AUD,High,RBA Monetary Policy Statement
+2025-05-20,00:30,AUD,High,RBA Rate Statement
+2025-05-20,01:30,AUD,Medium,RBA Press Conference
+2025-05-20,02:00,EUR,Low,German PPI m/m
+2025-05-20,04:00,EUR,Low,Current Account
+2025-05-20,04:00,GBP,Low,MPC Member Pill Speaks
+2025-05-20,04:45,All,Low,G7 Meetings
+2025-05-20,08:30,CAD,High,CPI m/m
+2025-05-20,08:30,CAD,High,Median CPI y/y
+2025-05-20,08:30,CAD,High,Trimmed CPI y/y
+2025-05-20,08:30,CAD,Medium,Common CPI y/y
+2025-05-20,08:32,CAD,Low,Core CPI m/m
+2025-05-20,09:00,USD,Low,FOMC Member Barkin Speaks
+2025-05-20,09:00,USD,Low,FOMC Member Bostic Speaks
+2025-05-20,10:00,EUR,Low,Consumer Confidence
+2025-05-20,10:14,NZD,Low,GDT Price Index
+2025-05-20,13:00,USD,Low,FOMC Member Musalem Speaks
+2025-05-20,15:00,USD,Medium,President Trump Speaks
+2025-05-20,16:30,USD,Low,API Weekly Statistical Bulletin
+2025-05-20,17:00,USD,Low,FOMC Member Kugler Speaks
+2025-05-20,18:45,NZD,Low,Trade Balance
+2025-05-20,19:00,USD,Low,FOMC Member Daly Speaks
+2025-05-20,19:00,USD,Low,FOMC Member Hammack Speaks
+2025-05-20,19:50,JPY,Low,Trade Balance
+2025-05-20,20:30,AUD,Low,MI Leading Index m/m
+2025-05-20,23:00,NZD,Low,Credit Card Spending y/y
+2025-05-21,02:00,GBP,High,CPI y/y
+2025-05-21,02:00,GBP,Low,Core CPI y/y
+2025-05-21,02:00,GBP,Low,RPI y/y
+2025-05-21,02:02,CNY,Low,Foreign Direct Investment ytd/y
+2025-05-21,04:00,EUR,Medium,ECB Financial Stability Review
+2025-05-21,04:30,GBP,Low,HPI y/y
+2025-05-21,04:45,All,Low,G7 Meetings
+2025-05-21,05:42,EUR,Low,German 10-y Bond Auction
+2025-05-21,08:30,CAD,Low,NHPI m/m
+2025-05-21,10:30,USD,Low,Crude Oil Inventories
+2025-05-21,12:15,USD,Low,FOMC Member Barkin Speaks
+2025-05-21,12:15,USD,Low,FOMC Member Bowman Speaks
+2025-05-21,19:00,AUD,Low,Flash Manufacturing PMI
+2025-05-21,19:00,AUD,Low,Flash Services PMI
+2025-05-21,19:50,JPY,Low,Core Machinery Orders m/m
+2025-05-21,20:30,JPY,Low,Flash Manufacturing PMI
+2025-05-21,22:00,NZD,Medium,Annual Budget Release
+2025-05-22,02:00,GBP,Low,Public Sector Net Borrowing
+2025-05-22,03:15,EUR,High,French Flash Manufacturing PMI
+2025-05-22,03:15,EUR,High,French Flash Services PMI
+2025-05-22,03:15,GBP,Low,MPC Member Breeden Speaks
+2025-05-22,03:30,EUR,High,German Flash Manufacturing PMI
+2025-05-22,03:30,EUR,High,German Flash Services PMI
+2025-05-22,04:00,EUR,Medium,Flash Manufacturing PMI
+2025-05-22,04:00,EUR,Medium,Flash Services PMI
+2025-05-22,04:00,EUR,Medium,German ifo Business Climate
+2025-05-22,04:30,AUD,Low,RBA Deputy Gov Hauser Speaks
+2025-05-22,04:30,GBP,High,Flash Manufacturing PMI
+2025-05-22,04:30,GBP,High,Flash Services PMI
+2025-05-22,04:45,All,Low,G7 Meetings
+2025-05-22,05:03,EUR,Low,Spanish 10-y Bond Auction
+2025-05-22,06:00,EUR,Low,German Buba Monthly Report
+2025-05-22,06:00,GBP,Low,CBI Industrial Order Expectations
+2025-05-22,06:50,GBP,Low,MPC Member Breeden Speaks
+2025-05-22,07:30,EUR,Low,ECB Monetary Policy Meeting Accounts
+2025-05-22,08:00,GBP,Low,MPC Member Dhingra Speaks
+2025-05-22,08:30,CAD,Low,IPPI m/m
+2025-05-22,08:30,CAD,Low,RMPI m/m
+2025-05-22,08:30,GBP,Low,MPC Member Pill Speaks
+2025-05-22,08:30,USD,High,Unemployment Claims
+2025-05-22,09:00,EUR,Low,Belgian NBB Business Climate
+2025-05-22,09:30,EUR,Low,German Buba President Nagel Speaks
+2025-05-22,09:45,USD,High,Flash Manufacturing PMI
+2025-05-22,09:45,USD,High,Flash Services PMI
+2025-05-22,10:00,USD,Medium,Existing Home Sales
+2025-05-22,10:30,USD,Low,Natural Gas Storage
+2025-05-22,14:00,USD,Low,FOMC Member Williams Speaks
+2025-05-22,14:30,CAD,High,BOC Gov Macklem Speaks
+2025-05-22,15:15,CAD,Low,Gov Council Member Gravelle Speaks
+2025-05-22,18:45,NZD,Medium,Retail Sales q/q
+2025-05-22,18:45,NZD,Low,Core Retail Sales q/q
+2025-05-22,19:01,GBP,Low,GfK Consumer Confidence
+2025-05-22,19:30,JPY,Low,National Core CPI y/y
+2025-05-23,02:00,EUR,Low,German Final GDP q/q
+2025-05-23,02:00,GBP,High,Retail Sales m/m
+2025-05-23,08:30,CAD,High,Core Retail Sales m/m
+2025-05-23,08:30,CAD,High,Retail Sales m/m
+2025-05-23,08:30,CAD,Low,Corporate Profits q/q
+2025-05-23,09:35,USD,Low,FOMC Member Musalem Speaks
+2025-05-23,09:35,USD,Low,FOMC Member Schmid Speaks
+2025-05-23,10:00,USD,Medium,New Home Sales
+2025-05-23,12:00,USD,Low,FOMC Member Cook Speaks
+2025-05-23,16:00,USD,Low,FOMC Financial Stability Report
