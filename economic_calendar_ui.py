@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 import requests
 import csv
-import datetime
+from datetime import datetime
 
 # === Configuration des couleurs d'impact ===
 IMPACT_COLORS = {
@@ -10,7 +10,7 @@ IMPACT_COLORS = {
     "Medium": "#FFA500",   # Orange
     "Low": "#87CEEB",      # Bleu clair
     "Holiday": "#A9A9A9",  # Gris
-    "": "white"              # Valeur par défaut
+    "": "white"            # Valeur par défaut
 }
 
 # === Fonction pour récupérer les données ===
@@ -36,7 +36,7 @@ def export_to_csv(data):
             writer = csv.writer(file)
             writer.writerow(["Date", "Heure", "Devise", "Impact", "Événement"])
             for row in data:
-                writer.writerow([row['date'], row['time'], row['currency'], row['impact'], row['event']])
+                writer.writerow([row['date'], row['time'], row['country'], row['impact'], row['title']])
         messagebox.showinfo("Exporté", "Les données ont été exportées avec succès.")
 
 # === Fonction principale ===
@@ -64,8 +64,8 @@ def start_ui():
     def apply_filters():
         filtered = [
             e for e in events
-            if (not country_var.get() or e['currency'] == country_var.get()) and
-               (not impact_var.get() or e['impact'] == impact_var.get())
+            if (not country_var.get() or e.get('country') == country_var.get()) and
+               (not impact_var.get() or e.get('impact') == impact_var.get())
         ]
         display_data(filtered)
 
@@ -76,22 +76,38 @@ def start_ui():
         display_data(events)
 
     def update_filters(data):
-        currencies = sorted(set(e['currency'] for e in data))
+        currencies = sorted(set(e.get('country', '') for e in data if e.get('country')))
         country_combo['values'] = [""] + currencies
 
     # === Tableau ===
-    columns = ("date", "time", "currency", "impact", "event")
+    columns = ("date", "time", "country", "impact", "title")
     tree = ttk.Treeview(root, columns=columns, show="headings", height=20)
     tree.pack(fill="both", expand=True, padx=10, pady=5)
 
-    for col in columns:
-        tree.heading(col, text=col.capitalize())
+    for col, text in zip(columns, ["Date", "Heure", "Devise", "Impact", "Événement"]):
+        tree.heading(col, text=text)
         tree.column(col, anchor="center")
 
     def display_data(data):
         tree.delete(*tree.get_children())
         for e in data:
-            tree.insert("", "end", values=(e['date'], e['time'], e['currency'], e['impact'], e['event']), tags=(e['impact'],))
+            full_date = e.get('date', '')
+            try:
+                dt = datetime.fromisoformat(full_date.replace('Z', '').replace('+00:00', ''))
+                date_str = dt.strftime("%Y-%m-%d")
+                time_str = dt.strftime("%H:%M")
+            except:
+                date_str = full_date
+                time_str = ""
+
+            tree.insert("", "end", values=(
+                date_str,
+                time_str,
+                e.get('country', ''),
+                e.get('impact', ''),
+                e.get('title', '')
+            ), tags=(e.get('impact', ''),))
+
         for impact, color in IMPACT_COLORS.items():
             tree.tag_configure(impact, background=color)
 
@@ -108,9 +124,9 @@ def start_ui():
             {
                 'date': tree.item(i)['values'][0],
                 'time': tree.item(i)['values'][1],
-                'currency': tree.item(i)['values'][2],
+                'country': tree.item(i)['values'][2],
                 'impact': tree.item(i)['values'][3],
-                'event': tree.item(i)['values'][4]
+                'title': tree.item(i)['values'][4]
             }
             for i in tree.get_children()
         ]
